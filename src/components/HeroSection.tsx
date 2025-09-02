@@ -70,7 +70,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onScrollNext }) => {
                 Odoo ERP
               </span>
               <br />
-              <span className="text-yellow-400">Implementation</span>
+              <span className="text-yellow-400">DEMO</span>
             </h1>
 
             {/* Subtitle */}

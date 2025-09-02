@@ -22,7 +22,8 @@ import {
   Zap,
   Globe,
   Mail,
-  Phone
+  Phone,
+  Contact
 } from 'lucide-react';
 import HeroSection from './components/HeroSection';
 import AnimatedSection from './components/AnimatedSection';
@@ -111,7 +112,7 @@ function App() {
                   { icon: CheckCircle, color: 'green', label: 'Approvals' },
                   { icon: Shield, color: 'orange', label: 'Quality' },
                   { icon: Calculator, color: 'indigo', label: 'Accounting' },
-                  { icon: TrendingUp, color: 'pink', label: 'Sales' }
+                  { icon: Contact, color: 'pink', label: 'Contact' }
                 ].map((module, index) => (
                   <div 
                     key={index}
@@ -304,7 +305,7 @@ function App() {
         </div>
       </AnimatedSection>
 
-      {/* Sales Module */}
+      {/* Sales Module
       <AnimatedSection className="bg-white">
         <div className="container mx-auto px-6 py-20">
           <ModuleCard
@@ -323,7 +324,7 @@ function App() {
             workflow={['Contract Creation', 'Milestone Tracking', 'Invoice Generation', 'Payment Collection', 'Profitability Analysis']}
           />
         </div>
-      </AnimatedSection>
+      </AnimatedSection> */}
 
       {/* Contacts Module */}
       <AnimatedSection className="bg-gradient-to-r from-orange-900 to-yellow-900">
@@ -399,7 +400,7 @@ function App() {
                 { icon: Shield, label: 'Quality', color: 'orange' },
                 { icon: Package, label: 'Inventory', color: 'indigo' },
                 { icon: Calculator, label: 'Accounting', color: 'pink' },
-                { icon: TrendingUp, label: 'Sales', color: 'teal' },
+                { icon: Contact, label: 'Contact', color: 'teal' },
                 { icon: BarChart3, label: 'Reports', color: 'yellow' }
               ].map((step, index) => (
                 <div key={index} className="text-center">
@@ -471,21 +472,21 @@ function App() {
               {
                 phase: 'Phase 1',
                 title: 'Pilot Implementation',
-                duration: '4-6 Weeks',
+                
                 description: 'Setup core modules with limited users and basic workflows',
                 features: ['System Setup', 'User Training', 'Data Migration', 'Basic Testing']
               },
               {
                 phase: 'Phase 2',
                 title: 'Training & Refinement',
-                duration: '2-3 Weeks',
+               
                 description: 'Comprehensive user training and process optimization',
                 features: ['Advanced Training', 'Process Optimization', 'Custom Reports', 'Integration Testing']
               },
               {
                 phase: 'Phase 3',
                 title: 'Full Rollout',
-                duration: '2-4 Weeks',
+             
                 description: 'Company-wide deployment with ongoing support',
                 features: ['Full Deployment', 'Go-Live Support', 'Performance Monitoring', '24/7 Support']
               }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, Phone, Globe, Building2, CheckCircle } from 'lucide-react';
+import oddoo from '../assets/generated-image.png';  
 
 const ContactSection: React.FC = () => {
   return (
@@ -18,13 +19,15 @@ const ContactSection: React.FC = () => {
             {/* Header */}
             <div className="mb-16">
               <div className="flex items-center justify-center space-x-4 mb-8">
-                <div className="w-16 h-16 bg-purple-600 rounded-2xl flex items-center justify-center">
-                  <Building2 className="w-8 h-8 text-white" />
+               <div className="flex items-center justify-center space-x-4 mb-6">
+                <div className="w-16 h-16 rounded-2xl flex items-center justify-center">
+                 <img src={oddoo}/>
                 </div>
                 <div className="text-left">
-                  <div className="text-2xl font-bold text-white">ODOO ERP</div>
+                  <div className="text-2xl font-bold text-white">ERP</div>
                   <div className="text-sm text-purple-300">Ready to Transform</div>
                 </div>
+              </div>
               </div>
               
               <h2 className="text-6xl font-bold text-white mb-6">Ready to Get Started?</h2>
@@ -63,6 +66,26 @@ const ContactSection: React.FC = () => {
                       <div className="text-white/80">odoo@sriainfotech.com</div>
                     </div>
                   </div>
+
+                          <div className="flex items-center space-x-4">
+                    <div className="w-12 h-12 bg-green-600 rounded-xl flex items-center justify-center">
+                      <Phone className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="text-left">
+                      <div className="text-white font-semibold">Phone</div>
+                      <div className="text-white/80">+91 6309782855</div>
+                    </div>
+                  </div>
+
+                     <div className="flex items-center space-x-4">
+                    <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center">
+                      <Globe className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="text-left">
+                      <div className="text-white font-semibold">Website</div>
+                      <div className="text-white/80">www.sriainfotech.com</div>
+                    </div>
+                  </div> 
 {/*                   
                   <div className="flex items-center space-x-4">
                     <div className="w-12 h-12 bg-green-600 rounded-xl flex items-center justify-center">
@@ -86,7 +109,7 @@ const ContactSection: React.FC = () => {
                 </div>
 
                 <div className="space-y-4">
-                  <h4 className="text-xl font-bold text-white mb-4">What's Included</h4>
+                  <h4 className="text-xl font-bold text-white text-left mb-4">What's Included</h4>
                   {[
                     'Free Initial Consultation',
                     'Detailed Implementation Plan',
