@@ -1,13 +1,20 @@
 import React from 'react';
 import { Mail, Phone, Globe, Building2, CheckCircle } from 'lucide-react';
 import oddoo from '../assets/generated-image.png';  
+import logo from '../assets/sria infotech.png';
 
 const ContactSection: React.FC = () => {
   return (
     <section className="section min-h-screen bg-gradient-to-br from-purple-900 via-indigo-900 to-purple-900 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 right-20 w-64 h-64 bg-purple-600/10 rounded-full animate-pulse"></div>
+          <div className="absolute top-20 right-20 w-48 h-48 bg-purple-600/10 rounded-full animate-pulse flex items-center justify-center">
+    <img 
+      src={logo} 
+      alt="Sria Infotech Logo" 
+      className="w-40 h-auto drop-shadow-lg"  // bigger logo
+    />
+  </div>
         <div className="absolute bottom-20 left-20 w-48 h-48 bg-orange-500/10 rounded-full animate-bounce"></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-indigo-600/5 rounded-full animate-spin"></div>
       </div>

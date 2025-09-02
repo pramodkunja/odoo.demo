@@ -64,7 +64,7 @@ function App() {
       <HeroSection onScrollNext={scrollToNext} />
 
       {/* What is Odoo */}
-      <AnimatedSection className="bg-gradient-to-br from-white to-gray-50">
+      <AnimatedSection className="bg-gradient-to-br from-white to-gray-50 flex items-center">
         <div className="container mx-auto px-6 py-20">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold text-gray-800 mb-6">What is Odoo?</h2>
@@ -130,7 +130,7 @@ function App() {
       </AnimatedSection>
 
       {/* Why Odoo for Elegant Infra */}
-      <AnimatedSection className="bg-gradient-to-r from-purple-900 to-purple-800">
+      <AnimatedSection className="bg-gradient-to-r from-purple-900 to-purple-800 flex items-center">
         <div className="container mx-auto px-6 py-20">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -182,7 +182,7 @@ function App() {
       </AnimatedSection>
 
       {/* Purchase Module */}
-      <AnimatedSection className="bg-white">
+      <AnimatedSection className="bg-white  flex items-center">
         <div className="container mx-auto px-6 py-20">
           <ModuleCard
             title="Purchase Module"
@@ -203,7 +203,7 @@ function App() {
       </AnimatedSection>
 
       {/* Inventory Module */}
-      <AnimatedSection className="bg-gradient-to-br from-blue-50 to-indigo-50">
+      <AnimatedSection className="bg-gradient-to-br from-blue-50 to-indigo-50  flex items-center">
         <div className="container mx-auto px-6 py-20">
           <ModuleCard
             title="Inventory Module"
@@ -224,7 +224,7 @@ function App() {
       </AnimatedSection>
 
       {/* Approvals Module */}
-      <AnimatedSection className="bg-white">
+      <AnimatedSection className="bg-white  flex items-center">
         <div className="container mx-auto px-6 py-20">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold text-gray-800 mb-6">Approvals Module</h2>
@@ -236,7 +236,7 @@ function App() {
       </AnimatedSection>
 
       {/* Quality Module */}
-      <AnimatedSection className="bg-gradient-to-r from-green-900 to-teal-900">
+      <AnimatedSection className="bg-gradient-to-r from-green-900 to-teal-900 flex items-center">
         <div className="container mx-auto px-6 py-20">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -285,7 +285,7 @@ function App() {
       </AnimatedSection>
 
       {/* Accounting Module */}
-      <AnimatedSection className="bg-gradient-to-br from-indigo-50 to-purple-50">
+      <AnimatedSection className="bg-gradient-to-br from-indigo-50 to-purple-50 flex items-center">
         <div className="container mx-auto px-6 py-20">
           <ModuleCard
             title="Accounting Module"
@@ -327,7 +327,7 @@ function App() {
       </AnimatedSection> */}
 
       {/* Contacts Module */}
-      <AnimatedSection className="bg-gradient-to-r from-orange-900 to-yellow-900">
+      <AnimatedSection className="bg-gradient-to-r from-orange-900 to-yellow-900 flex items-center">
         <div className="container mx-auto px-6 py-20">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -382,7 +382,7 @@ function App() {
       </AnimatedSection>
 
       {/* Workflow Integration */}
-      <AnimatedSection className="bg-gradient-to-br from-purple-900 via-indigo-900 to-blue-900">
+      <AnimatedSection className="bg-gradient-to-br from-purple-900 via-indigo-900 to-blue-900 flex items-center">
         <div className="container mx-auto px-6 py-20">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold text-white mb-6">Complete Workflow Integration</h2>
@@ -419,7 +419,7 @@ function App() {
       </AnimatedSection>
 
       {/* Benefits */}
-      <AnimatedSection className="bg-white">
+      <AnimatedSection className="bg-white flex items-center">
         <div className="container mx-auto px-6 py-20">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold text-gray-800 mb-6">Benefits for Elegant Infra Developers</h2>
@@ -458,7 +458,7 @@ function App() {
       </AnimatedSection>
 
       {/* Next Steps */}
-      <AnimatedSection className="bg-gradient-to-r from-gray-900 to-black">
+      <AnimatedSection className="bg-gradient-to-r from-gray-900 to-black flex items-center">
         <div className="container mx-auto px-6 py-20">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold text-white mb-6">Implementation Roadmap</h2>
